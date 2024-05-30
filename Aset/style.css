@@ -1,0 +1,41 @@
+
+/* Contoh penggunaan box-shadow sebagai pengganti border untuk efek hover */
+ul li a {
+  display: block;
+  padding: 8px 12px;
+  color: #000;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  
+}
+
+ul li a:hover {
+  background-color: #f0f0f0;
+  /* Tambahkan shadow untuk efek hover tanpa mengubah ukuran elemen */
+  box-shadow: inset 0 -2px 0 0 #FF793F;
+}
+
+/* Hindari perubahan padding, margin, atau border */
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+ul li {
+  margin: 0;
+  padding: 0;
+
+}
+
+/* styles.css */
+.shadow-custom {
+    box-shadow: 0 60px 80px 10px rgba(255, 121, 63, 0.304); /* Shadow besar dan buram dengan warna #FF793F */
+}
+
+@media screen and (max-width: 720px) {
+    .shadow-custom {
+        box-shadow: none;
+    }
+}

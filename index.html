@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="Aset/style.css">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            orangeku: '#FF793F',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body>
+    <header class="">
+<nav class="bg-white fixed w-full z-20 top-0 start-0 border-b border-gray-200">
+    <div class="max-w-screen-xl md:mx-10 flex flex-wrap items-center justify-between p-4">
+    <a href="#" class="flex items-center space-x-1 rtl:space-x-reverse">
+        <img src="Aset/logoo.png" class="h-6 w-6" alt="Flowbite Logo">
+        <span class="self-center text-base font-semibold text-orangeku whitespace-nowrap">Aktivitasku</span>
+    </a>
+    <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+        <button type="button" class="text-black border border-orangeku flex items-center justify-center font-medium rounded-full text-sm px-4 py-1.5 pt-1 hover:text-orangeku text-center">Download</button>
+        <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200" aria-controls="navbar-sticky" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+          </svg>
+      </button>
+    </div>
+    <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+      <ul class=" flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 bg-white">
+        <li>
+          <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-black " aria-current="page">Beranda</a>
+        </li>
+        <li>
+          <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-black ">Fitur</a>
+        </li>
+        <li>
+          <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-black ">Testimoni</a>
+        </li>
+        <li>
+          <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-black ">Produk</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+  </nav>
+
+  <div class="md:flex mt-16 md:ml-10  ">
+        <section class="bg-white md:w-1/2 flex items-center justify-center">
+            <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16">
+                <h1 class="mb-4 text-left text-4xl font-extrabold tracking-tight leading-none text-orangeku md:text-6xl ">Aktivitasku</h1>
+                <p class="mb-4 text-left text-5xl font-extrabold tracking-tight leading-none text-gray-900 md:text-4xl lg:text-4xl  ">Solusi Terbaik </p>
+                <p class="mb-4 text-left text-5xl font-extrabold tracking-tight leading-none text-gray-900 md:text-4xl lg:text-4xl  ">Mengelola <span class=" text-orangeku">Waktu</span> </p>
+                <p class="text-left mb-4 text-lg font-normal text-gray-500">Dengan AktivitasKu, Kamu dapat merencanakan jadwal harian dengan mudah dan mengingatkan anak-anak tentang tugas sekolahnya secara otomatis</p>
+                <div class="flex flex-col gap-x-4 text-left sm:flex-row sm:space-y-0">
+                    <a href="#" class="inline-flex justify-center items-center py-2.5 px-7 text-base font-medium text-center text-white rounded-full bg-orangeku hover:bg-orange-600  ">
+                        Ayo Mulai
+                        
+                    </a>
+                    <a href="#" class="inline-flex justify-center items-center py-2.5 px-7 text-base font-medium text-center text-black rounded-full border border-orangeku  hover:text-orangeku  ">
+                        Download
+                        
+                    </a>
+                </div>
+            </div>
+        </section>
+    <div>
+<section class="w-full">
+    <img class="" src="Aset/jumbotron-image.png" alt="ini foto jumbotron">
+</section>
+    </div>
+  </div>
+    </header>
+    
+
+    <main>
+        <div class="content">
+            <!-- article 1 -->
+            <article class="my-20">
+                <div class="text-center">
+                    <h1 class="text-4xl font-semibold">
+                        Fitur <span class=" text-orangeku">Aktivitasku</span>
+                    </h1>
+                    <p class="text-lg font-normal text-gray-500">Aktivitasku menyediakan tiga fitur utama yaitu Penambahan Jadwal, </p>
+                    <p class="text-lg font-normal text-gray-500">Pengingat, dan juga Catatan</p>
+                </div>
+                <section>
+<div class="md:flex md:mx-32 mx-5 mt-16 gap-x-20 md:space-y-0 space-y-5">
+    <div class="bg-white  shadow-custom  rounded-2xl px-8 py-10  border border-orangeku ">
+        <img class="mb-10" src="Aset/icon fitur (2).png" alt="">
+        <h1 class="text-lg font-semibold">Rencanakan Kegiatan dengan Lebih Teratur</h1>
+        <p class="text-sm text-gray-500">Dengan fitur penambah jadwal, Anda dapat dengan mudah merencanakan kegiatan sehari-hari anak Anda. Tidak perlu lagi khawatir tentang kegiatan yang terlewat</p>
+    </div>
+    <div class="bg-white shadow-custom  rounded-2xl px-8 py-10  border border-orangeku ">
+        <img class="mb-10" src="Aset/icon fitur (3).png" alt="">
+        <h1 class="text-lg font-semibold">Tetap Teratur dengan Pengingat Otomatis</h1>
+        <p class="text-sm text-gray-500">Dapatkan pengingat langsung untuk setiap kegiatan yang telah direncanakan. AktivitasKu memberikan pengingat otomatis yang membantu anak Anda tetap teratur dalam kegiatan</p>
+    </div>
+    <div class="bg-white shadow-custom  rounded-2xl px-8 py-10  border border-orangeku ">
+        <img class="mb-10" src="Aset/icon fitur (1).png" alt="">
+        <h1 class="text-lg font-semibold">Mengungkapkan Isi Hati & Mendukung Pertumbuhan</h1>
+        <p class="text-sm text-gray-500">Fitur ini memungkinkan anak untuk mengungkapkan pikiran, perasaan, dan pengalaman mereka dengan bebas. Orang tua dapat membantu mendukung pertumbuhan emosional anak</p>
+    </div>
+
+</div>
+                </section>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+</body>
+</html>
